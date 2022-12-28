@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=productos.css>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Barber Urbans | Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+
+            <h1><img src="img/logo.png" alt="logo" id="logo"></h1>
+            <nav>
+                <ul>
+                    <li> <a href="/index.html">HOME</a></li>
+                    <li> <a href="/productos.html">PRODUCTOS</a></li>
+                    <li> <a href="/contacto.html">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="nombreapellido">Nombres y Apellidos</label>
+                <input type="text" id="nombreapellido" placeholder="Nombres y Apellidos" class="input-padre" required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" placeholder="Digite su correo" class="input-padre" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Digite su telefono" class="input-padre" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10 " id="mensaje" class="input-padre" required></textarea>
+                <div>
+                    <legend>¿Como te gustaria que te contactemos?</legend>
+
+                    <label for="radio-email"> <input type="radio" name="contacto" id="radio-email">Email</label>
+
+                    <label for="radio-telefono"> <input type="radio" name="contacto"
+                            id="radio-telefono">Telefono</label>
+
+                    <label for="radio-WhatsApp"><input type="radio" name="contacto" id="radio-WhatsApp"
+                            checked>WhatsApp</label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend> ¿En cual horario desea que lo contactemos?</legend>
+                <select class="horarios">
+
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" name="" id="" checked>Deseo recibir promociones de Barber
+                Urbans</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+        
+    </main>
+
+    <footer>
+        <img src="img/logo2.png" alt="logo">
+        <p class="copyrigth"> &copy; Copyrigth Barber Urbans 2022
+            &reg;
+            <br>  Developed by Jaime Hoyos 
+            
+        </p>
+
+    </footer>
+</body>
+
+</html>

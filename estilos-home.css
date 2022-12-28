@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    
+}
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+#mision {
+    font-size: 20px;
+}
+
+em b{
+    color: red;
+}
+#banner{
+ width: 100%;
+}
+.items{
+font-style: italic;
+
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.diferenciales{
+    background: white;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+.img_difrenciales{
+    width: 50%;
+}
+h3{
+    text-align: center;
+}
+
