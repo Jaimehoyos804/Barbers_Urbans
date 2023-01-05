@@ -1,3 +1,4 @@
+/*Estilos del Index */
 .caja {
   position: relative;
   width: 940px;
@@ -43,7 +44,7 @@ nav a:hover {
   color: green;
   text-decoration: underline;
 }
-
+/*Estilos de Productos */
 .productos {
   width: 940px;
   margin: 0 auto;
@@ -90,6 +91,7 @@ nav a:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+/* Pie de Pagina */
 footer {
   text-align: center;
   background: url(../img/bg.jpg);
@@ -100,7 +102,7 @@ footer {
   font-size: 23px;
   margin: 20px;
 }
-
+/* Estilos de Contacto*/
 form {
   margin: 40px 0;
   margin-left: 3cm;
@@ -282,6 +284,7 @@ p::first-line {
   padding: 40px 0;
   background: #888888;
 }
+/* Estilos para telefonos */
 @media screen and (max-width: 480px) {
   h1 {
     text-align: center;

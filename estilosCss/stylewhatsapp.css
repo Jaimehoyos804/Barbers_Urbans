@@ -1,3 +1,4 @@
+/*Estilos del Boton y Ubicacion*/
 .float{
 	position:fixed;
 	width:60px;
@@ -12,12 +13,13 @@
 	box-shadow: 2px 2px 3px #999;
  	 z-index:100;
 }
+/*Estilos cuando se pocisiona encima del boton*/
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
   	background-color:#fff;
 }
-
+/*Margenes del icono*/
 .my-float{
 	margin-top:16px;
 }
